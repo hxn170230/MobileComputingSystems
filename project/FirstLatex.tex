@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\begin{document}
+	\title{A Coexistence model of {IEEE} 802.11b/g {IEEE} 802.15.4 and {LTE-U}}
+	\author{Harshavardhan Nalajala}
+	\maketitle
+	\tableofcontents
+	\section{Motivation}
+	Coexistence of various networks in unlicensed band has been the focus of study for a long time now. 802.11, 802.15.4 and Bluetooth coexistence has been studied extensively in \cite{953230}, \cite{4024941}, \cite{1666534}, \cite{7793984}, \cite{6425289}, \cite{4436237}, \cite{Tytgat2012}, \cite{6645003}. Other modes of interferences including microwave ovens, cordless phones have also been studied in \cite{5210929}. Recent advances have introduced {LTE} in unlicensed band and has led to extensive studies on coexistence of 802.11 or 802.15.4 with {LTE-U} \cite{7564872}, \cite{7497766}, \cite{7419263}, \cite{7583669}, \cite{7063521}, \cite{7506714}.  802.11, 802.15.4 and {Bluetooth} are the most common networks deployed in {2.4Ghz}. \cite{7506714} discusses coexistence of {LTE} with {ZigBee} in {2.4Ghz}. Coexistence of these common networks together with {LTE-U} has not been studied thus far. {Bluetooth} has the option of jumping to non overlapping channel using {FHSS}. However {CSMA/CA} based 802.11 and 802.15.4 {MAC} layer operation needs to be studied together with {LTE-U} since {LTE-U} does not sense the channel before transmitting.
+	
+Coexistence of networks in the same unlicensed band can be studied based on three modes of separation.
+	\begin{itemize}
+		\item Spatial separation where networks are separated out of co-channel interference range.
+		\item Temporal separation where networks using the same frequency time share the medium to avoid interference and collisions.
+		\item Frequency separation where networks use different channels avoiding interference.
+	\end{itemize}
+Here we focus on temporal separation of {LTE-U}, 802.11 and 802.15.4 to communicate and time share the medium.
+
+	\section{Problem Statement}
+	Present a coexistence model of {IEEE} 802.11b/g, {IEEE} 802.15.4 and {LTE-U} to accurately explain their coexistence performances.
+	
+	\section{Problem Description}
+	Consider a network consisting an {LTE-AP}, $N_{lte}$ {LTE} nodes, $N_{wifi}$ 802.11bg nodes, $N_{wsn}$ 802.15.4 nodes. Herein after 802.11bg nodes are referred to as {Wifi} nodes and 802.15.4 nodes are referred to as {Wsn} nodes. {LTE} nodes and {LTE-AP} are expected to implement Fair LBT Algorithm described in \cite{7419263}. {LTE-AP} is expected to continuously transmit downlink data to {LTE} nodes. {Wifi} nodes are expected to transmit data continuously to simulate continuous contention for medium access. {Wsn} nodes are expected to contend for the medium continuously by trying to transmit data continuously. Physical channel is expected to be error free and the only packet drops are due to collisions. All nodes are in co-channel interference range. {Wifi} nodes are expected to sense {Wsn} and {LTE} powers of transmission while {Wsn} nodes can sense transmit power levels of {Wifi} and {LTE} nodes. All three networks' nodes use the same {2.4Ghz} channel and time share the medium to avoid interference and collisions. We now use this network model to understand and present a coexistence model of all three networks together.
+	
+	
+	
+	\nocite{*}	
+\bibliography{references}
+\bibliographystyle{IEEEtran}
+
+\end{document}

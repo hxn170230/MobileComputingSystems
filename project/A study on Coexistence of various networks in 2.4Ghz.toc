@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Problem Statement}{2}
+\contentsline {section}{\numberline {2}Network Model}{2}
+\contentsline {section}{\numberline {3}Motivation}{2}
+\contentsline {section}{\numberline {4}Introduction}{2}
+\contentsline {subsection}{\numberline {4.1}LTE operation in unlicensed band}{3}
+\contentsline {subsection}{\numberline {4.2}WiFi operation in unlicensed band}{3}
+\contentsline {subsection}{\numberline {4.3}WSN operation in unlicensed band}{4}
+\contentsline {section}{\numberline {5}Classification of Coexistence Solutions}{4}
+\contentsline {subsection}{\numberline {5.1}Channel selection using spatial separation}{4}
+\contentsline {subsection}{\numberline {5.2}Channel selection using frequency separation}{4}
+\contentsline {subsection}{\numberline {5.3}Channel sharing using temporal separation}{4}
+\contentsline {section}{\numberline {6}Parameters of Coexistence model}{5}
+\contentsline {section}{\numberline {7}Related Works}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {7.1}Discussion of two existing models}{6}
+\contentsline {subsubsection}{\numberline {7.1.1}{LTE} and {WiFi} operation using {F-LBT} based coexistence model}{6}
+\contentsline {subsubsection}{\numberline {7.1.2}{WiFi} and {WSN} coexistence model}{8}
+\contentsline {subsubsection}{\numberline {7.1.3}Need for better coexistence model}{9}
+\contentsline {section}{\numberline {8}Proposed coexistence model}{10}
+\contentsline {section}{\numberline {9}Analysis}{10}
+\contentsline {subsection}{\numberline {9.1}Effect of $\alpha $}{11}
+\contentsline {subsection}{\numberline {9.2}Effect of higher retry limit in {WSN}}{11}
+\contentsline {subsection}{\numberline {9.3}Effect of lower limit on data rates of {WiFi}}{11}
+\contentsline {section}{\numberline {10}Conclusion}{11}
